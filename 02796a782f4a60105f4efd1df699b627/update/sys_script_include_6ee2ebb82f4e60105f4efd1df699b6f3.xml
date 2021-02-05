@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_570202_bacheca.ClaseDataScript</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ClaseDataScript</name>
+        <script><![CDATA[//ATTENZIONE, FUNZIONE IN BASE ALLA DATA DI OGGI +30 GIORNI, QUINDI SE DEVO USARLA TANTE VOLTE DEVO FARE REFERENZA A QUESTA DATA +30
+
+var ClaseDataScript = Class.create();
+ClaseDataScript.prototype = {
+    initialize: function() {
+    },
+	isDatefuture: function(strDate){
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		rightnow.addDaysLocalTime(30);
+		var testdate = new GlideDateTime(strDate);
+		
+		// If the testdate is before rightnow, return true, else return false
+		if (testdate.after(rightnow)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+
+	},
+	
+    type: 'ClaseDataScript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 13:53:59</sys_created_on>
+        <sys_id>6ee2ebb82f4e60105f4efd1df699b6f3</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>ClaseDataScript</sys_name>
+        <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+        <sys_update_name>sys_script_include_6ee2ebb82f4e60105f4efd1df699b6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 11:40:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

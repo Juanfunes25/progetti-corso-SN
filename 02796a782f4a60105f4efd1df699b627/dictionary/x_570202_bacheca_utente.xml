@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Utente" max_length="40" name="x_570202_bacheca_utente" sizeclass="9" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cittadinanza" mandatory="true" max_length="40" name="cittadinanza" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Codice Fiscale" max_length="40" name="codicefiscale" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data nascita" mandatory="true" max_length="40" name="datanascita" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lavoratore" mandatory="true" max_length="40" name="lavoratore" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Si" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="In ricerca" sequence="2" value="inricerca"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Paese di nascita" max_length="40" name="paesedinascita" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome utente" mandatory="true" max_length="40" name="user" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cognome" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>

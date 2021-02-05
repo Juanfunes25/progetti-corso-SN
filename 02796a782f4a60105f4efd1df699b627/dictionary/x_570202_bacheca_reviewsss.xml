@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="reviewsss" max_length="40" name="x_570202_bacheca_reviewsss" sizeclass="5" type="collection">
+        <element attributes="import_attribute_name=rating" label="rating" max_length="40" name="u_rating" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=testo" label="testo" max_length="40" name="u_testo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=titolo" label="titolo" max_length="40" name="u_titolo" type="string"/>
+    </element>
+</database>

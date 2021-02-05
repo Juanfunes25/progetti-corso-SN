@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="attivitainformaleannullata" table="x_570202_bacheca_annuncio" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>attivitainformaleannullata</element>
+            <name>x_570202_bacheca_annuncio</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 11:19:56</sys_created_on>
+            <sys_id>e5df7a302f0e60105f4efd1df699b6c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>attivitainformaleannullata</sys_name>
+            <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+            <sys_update_name>sys_choice_x_570202_bacheca_annuncio_attivitainformaleannullata</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 11:19:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>attivitainformaleannullata</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SI</label>
+            <language>en</language>
+            <name>x_570202_bacheca_annuncio</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 11:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>addf7a302f0e60105f4efd1df699b6c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 11:19:56</sys_updated_on>
+            <value>si</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>attivitainformaleannullata</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NO</label>
+            <language>en</language>
+            <name>x_570202_bacheca_annuncio</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 11:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61df7a302f0e60105f4efd1df699b6c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 11:19:56</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

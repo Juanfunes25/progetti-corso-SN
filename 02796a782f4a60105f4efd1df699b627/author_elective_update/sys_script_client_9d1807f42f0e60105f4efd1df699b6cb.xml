@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Collegameto tra i 3 tipi di annunci possibili</description>
+        <field>tipologia</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>collegamento tra gli anunci</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+  var anunciopossibile = g_form.getValue('tipologia'); // valore che deve cambiare
+	//andiamo a ripulire tutte le opzioni a scelta del field modello
+	
+	g_form.clearOptions('tipologia');
+   
+	if(newValue== 'organizzazione'){
+		g_form.getValue('nomedelevento');
+		g_form.getValue('utenteevento');
+		//g_form.get('dataevento');
+		//g_form.addOption('tipologiaevento');
+		//g_form.addOption('eventoannullato');
+		//g_form.addOption('causaeventoannullato');
+	}
+
+   if(newValue== 'proposta'){
+	g_form.getv('tipologiaproposta');
+   }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 12:07:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d1807f42f0e60105f4efd1df699b6cb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>collegamento tra gli anunci</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+        <sys_update_name>sys_script_client_9d1807f42f0e60105f4efd1df699b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 12:28:08</sys_updated_on>
+        <table>x_570202_bacheca_annuncio</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">02796a782f4a60105f4efd1df699b627</application>
+        <file_path/>
+        <instance_id>c0a13a1cdb2f00542f68c597059619e0</instance_id>
+        <instance_name>dev102725</instance_name>
+        <name>sys_script_client_9d1807f42f0e60105f4efd1df699b6cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Collegameto tra i 3 tipi di annunci possibili&lt;/description&gt;&lt;field&gt;tipologia&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;collegamento tra gli anunci&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+  var anunciopossibile = g_form.getValue('tipologia'); // valore che deve cambiare
+	//andiamo a ripulire tutte le opzioni a scelta del field modello
+	
+	g_form.clearOptions('tipologia');
+   
+	if(newValue== 'organizzazione'){
+		g_form.getValue('nomedelevento');
+		g_form.getValue('utenteevento');
+		//g_form.get('dataevento');
+		//g_form.addOption('tipologiaevento');
+		//g_form.addOption('eventoannullato');
+		//g_form.addOption('causaeventoannullato');
+	}
+
+   if(newValue== 'proposta'){
+	g_form.getv('tipologiaproposta');
+   }
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-29 12:07:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9d1807f42f0e60105f4efd1df699b6cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;collegamento tra gli anunci&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Bacheca" source="x_570202_bacheca"&gt;02796a782f4a60105f4efd1df699b627&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bacheca"&gt;02796a782f4a60105f4efd1df699b627&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9d1807f42f0e60105f4efd1df699b6cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-29 12:28:08&lt;/sys_updated_on&gt;&lt;table&gt;x_570202_bacheca_annuncio&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1880569033</payload_hash>
+        <record_name>collegamento tra gli anunci</record_name>
+        <reverted_from/>
+        <source>0e792a302fca60105f4efd1df699b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 12:28:08</sys_created_on>
+        <sys_id>347fc3f82f0e60105f4efd1df699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774e1d73660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 12:28:08</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>bc7fc3f8540e6010904ee33edb32cb92</update_guid>
+        <update_guid_history>bc7fc3f8540e6010904ee33edb32cb92:1880569033,7c5f4b3c9f0e6010eac34e36195645f4:-1291808477,2c7b03b82f0e6010c919d6653a3856ba:-789385349,0e5b03b8170e6010625b7f2b2d0f32b4:-1495723371,d22bc7f4760e60101d509b821b0cee03:-1444384230,30aa07f4930e6010249d49f955df4cc4:1937782838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 13:04:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>07190d7f04c440c483127499ede0a910</sys_id>
+        <sys_metadata>9d1807f42f0e60105f4efd1df699b6cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>collegamento tra gli anunci</sys_name>
+        <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+        <sys_parent display_value="Annuncio">3cc9aa302fca60105f4efd1df699b6b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+        <sys_scope_delete display_value="">2c0d1d71a45945a0971be96b2427c400</sys_scope_delete>
+        <sys_update_name>sys_script_client_9d1807f42f0e60105f4efd1df699b6cb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9d1807f42f0e60105f4efd1df699b6cb">347fc3f82f0e60105f4efd1df699b693</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 13:04:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

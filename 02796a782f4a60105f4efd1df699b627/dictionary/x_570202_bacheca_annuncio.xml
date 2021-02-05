@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Annuncio" max_length="40" name="x_570202_bacheca_annuncio" sizeclass="14" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Tipologia attivita Informale" max_length="40" name="attivitainformale" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Attivita informale annullata" max_length="40" name="attivitainformaleannullata" type="string">
+            <choice>
+                <element inactive_on_update="false" label="SI" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Causa Evento Annullato" max_length="40" name="causaeventoannullato" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data attivita informale" max_length="40" name="dataattivitainformale" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data evento" max_length="40" name="dataevento" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Proposta" max_length="40" name="dataproposta" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Utente che scrive l'annuncio" mandatory="true" max_length="32" name="emailannuncio" reference="x_570202_bacheca_utente" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Utente che scrive l'annuncio" max_length="40" name="emailutenteanuncio" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Evento Annulalto?" max_length="40" name="eventoannullato" type="string">
+            <choice>
+                <element inactive_on_update="false" label="SI" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nome del evento" max_length="40" name="nomedelevento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Numero massimo di partecipanti" max_length="40" name="numeromassimo" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Richiede quota partecipativa?" max_length="40" name="richiedequota" type="string">
+            <choice>
+                <element inactive_on_update="false" label="SI" sequence="0" value="si"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="approvato" label="Stato proposta" max_length="40" name="statoproposta" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approvato" sequence="0" value="approvato"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Rifutato" sequence="2" value="rifutato"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="System User" max_length="32" name="systemuser" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="teambuilding" label="Tipo di Evento" max_length="40" name="tevento" type="string">
+            <choice>
+                <element inactive_on_update="false" label="di svago" sequence="0" value="di svago"/>
+                <element inactive_on_update="false" label="team building" sequence="0" value="team building"/>
+                <element inactive_on_update="false" label="Team Building" sequence="0" value="teambuilding"/>
+                <element inactive_on_update="false" label="Sportivo" sequence="1" value="sportivo"/>
+                <element inactive_on_update="false" label="Di Svago" sequence="2" value="disvago"/>
+                <element inactive_on_update="false" label="Altro" sequence="3" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipologia" max_length="40" name="tipologia" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="organizzazione evento aziendale" sequence="0" value="organizzazione evento aziendale"/>
+                <element inactive_on_update="false" label="Organizzazione evento aziendale" sequence="0" value="organizzazione"/>
+                <element inactive_on_update="false" label="Proposta per miglioramento lavoro" sequence="1" value="proposta"/>
+                <element inactive_on_update="false" label="Attivita Informale" sequence="2" value="attivitainformale"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tipologia Evento Altro" max_length="40" name="tipologiaevento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Altra tipologia di proposta miglioramento" max_length="40" name="tipologiaproposta" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="gestioneassets" label="Tipo miglioramento di lavoro" max_length="40" name="tipomiglioramentolavoro" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Gestione assets" sequence="0" value="gestioneassets"/>
+                <element inactive_on_update="false" label="Comunicazione tra dipartamenti" sequence="1" value="comunicazionetradipartamenti"/>
+                <element inactive_on_update="false" label="altro" sequence="2" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Utente che fa richiesta" max_length="32" name="utentechefarichiesta" reference="x_570202_bacheca_utente" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Utente che organizza l'evento" max_length="40" name="utenteevento" type="string"/>
+        <element attributes="encode_utf8=false" label="Utente che organizza evento" max_length="32" name="utenteevento2" reference="x_570202_bacheca_utente" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Utente che fa Richiesta" max_length="40" name="utenterichiesta" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Causa Attivita informale annullata" max_length="40" name="u_string_10" type="string"/>
+        <element label="Valore Quota Partecipativa" max_length="40" name="valorequota" type="integer"/>
+        <index name="index">
+            <element name="utentechefarichiesta"/>
+        </index>
+        <index name="index2">
+            <element name="utenteevento2"/>
+        </index>
+        <index name="index3">
+            <element name="emailannuncio"/>
+        </index>
+        <index name="index4">
+            <element name="systemuser"/>
+        </index>
+    </element>
+</database>

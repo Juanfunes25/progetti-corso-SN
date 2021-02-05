@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="192183b02f0e60105f4efd1df699b65a" sys_domain="global" table="x_570202_bacheca_commento" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>systemuser</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>ef6251ea2fc220105f4efd1df699b60f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>a76251ea2fc220105f4efd1df699b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_1</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>2b6251ea2fc220105f4efd1df699b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emailanuncio</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>ab6251ea2fc220105f4efd1df699b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>titolodelcommento</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>2f6251ea2fc220105f4efd1df699b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>testodelcommento</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>af6251ea2fc220105f4efd1df699b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>utente</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>236251ea2fc220105f4efd1df699b611</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cognomeutentescrive</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>a36251ea2fc220105f4efd1df699b611</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emailutentecommento</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>276251ea2fc220105f4efd1df699b611</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datainserimento</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-03 13:51:18</sys_created_on>
+            <sys_id>a76251ea2fc220105f4efd1df699b611</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570202_bacheca_commento" sys_domain="global" view="Default view">192183b02f0e60105f4efd1df699b65a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-03 13:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_570202_bacheca_commento</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 11:25:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>192183b02f0e60105f4efd1df699b65a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_570202_bacheca_commento</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+            <sys_update_name>sys_ui_section_192183b02f0e60105f4efd1df699b65a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 11:25:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

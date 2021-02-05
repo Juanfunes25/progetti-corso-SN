@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>attivitainformale</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 13:10:39</sys_created_on>
+        <sys_id>b909df702f4e60105f4efd1df699b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>attivitainformale</sys_name>
+        <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b909df702f4e60105f4efd1df699b60e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 13:10:39</sys_updated_on>
+        <table>x_570202_bacheca_annuncio</table>
+        <ui_policy display_value="organizzazione evento">c6cf037c2f0e60105f4efd1df699b609</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">02796a782f4a60105f4efd1df699b627</application>
+        <file_path/>
+        <instance_id>c0a13a1cdb2f00542f68c597059619e0</instance_id>
+        <instance_name>dev102725</instance_name>
+        <name>sys_ui_policy_action_b909df702f4e60105f4efd1df699b60e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>attivitainformale</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-29 13:10:39</sys_created_on><sys_id>b909df702f4e60105f4efd1df699b60e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>attivitainformale</sys_name><sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package><sys_policy/><sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope><sys_update_name>sys_ui_policy_action_b909df702f4e60105f4efd1df699b60e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-29 13:10:39</sys_updated_on><table>x_570202_bacheca_annuncio</table><ui_policy display_value="organizzazione evento">c6cf037c2f0e60105f4efd1df699b609</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1064210425</payload_hash>
+        <record_name>attivitainformale</record_name>
+        <reverted_from/>
+        <source>0e792a302fca60105f4efd1df699b65b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 13:10:39</sys_created_on>
+        <sys_id>a329dbb02f4e60105f4efd1df699b6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774e445f890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 13:10:39</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>eb29dbb0354e601016aec39c3782c5a1</update_guid>
+        <update_guid_history>eb29dbb0354e601016aec39c3782c5a1:-1064210425</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:35:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2550467390d34f449e749333ed52a509</sys_id>
+        <sys_metadata>b909df702f4e60105f4efd1df699b60e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>attivitainformale</sys_name>
+        <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+        <sys_scope_delete display_value="">2c0d1d71a45945a0971be96b2427c400</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b909df702f4e60105f4efd1df699b60e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b909df702f4e60105f4efd1df699b60e">a329dbb02f4e60105f4efd1df699b6a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:35:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

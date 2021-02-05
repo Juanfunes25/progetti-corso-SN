@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="codiceannuncio" label="Codice Annuncio" language="en" table="x_570202_bacheca_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>codiceannuncio</element>
+            <help/>
+            <hint/>
+            <label>Codice Annuncio</label>
+            <language>en</language>
+            <name>x_570202_bacheca_review</name>
+            <plural>Codice Annuncios</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-01 15:19:43</sys_created_on>
+            <sys_id>13735f3d2f4624105f4efd1df699b6dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Codice Annuncio</sys_name>
+            <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+            <sys_update_name>sys_documentation_x_570202_bacheca_review_codiceannuncio_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-01 15:19:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="utenterichiesta" label="Utente che fa Richiesta" language="en" table="x_570202_bacheca_annuncio">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>utenterichiesta</element>
+            <help/>
+            <hint/>
+            <label>Utente che fa Richiesta</label>
+            <language>en</language>
+            <name>x_570202_bacheca_annuncio</name>
+            <plural>Utente che fa Richiestas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-29 11:15:03</sys_created_on>
+            <sys_id>d6bebefc2fca60105f4efd1df699b602</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Utente che fa Richiesta</sys_name>
+            <sys_package display_value="Bacheca" source="x_570202_bacheca">02796a782f4a60105f4efd1df699b627</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bacheca">02796a782f4a60105f4efd1df699b627</sys_scope>
+            <sys_update_name>sys_documentation_x_570202_bacheca_annuncio_utenterichiesta_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-29 11:15:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
